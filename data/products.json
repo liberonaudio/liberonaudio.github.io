@@ -1,1 +1,15 @@
-
+[
+    {
+        "id": "ejemplo-001",
+        "name": "Marantz 2270 Receiver",
+        "brand": "Marantz",
+        "price": 1200,
+        "currency": "€",
+        "status": "disponible",
+        "shortDescription": "Receiver estéreo completamente restaurado. 70W por canal.",
+        "longDescription": "El Marantz 2270 es uno de los receivers más buscados de la era dorada del audio. Esta unidad ha sido sometida a una restauración integral...",
+        "images": ["marantz-2270-01.jpg", "marantz-2270-02.jpg", "marantz-2270-03.jpg"],
+        "tags": ["receiver", "marantz", "vintage", "restaurado"],
+        "date": "2025-01-15"
+    }
+]
