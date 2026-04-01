@@ -261,14 +261,23 @@ body::after {
     inset: 0;
     z-index: 0;
 }
-/* Ensure hero content is above background */
-.hero > *:not(.hero-background) {
+
+.hero-line--left { width: 1px; height: 120px; top: 15%; left: 8%; z-index: 2; }
+.hero-line--right { width: 1px; height: 120px; top: 15%; right: 8%; z-index: 2; }
+.hero-line--bottom { width: 200px; height: 1px; bottom: 18%; left: 50%; transform: translateX(-50%); z-index: 2; }
+
+.hero-overtitle,
+.hero-logo,
+.hero-title,
+.hero-subtitle,
+.hero-divider,
+.hero-tagline {
     position: relative;
     z-index: 2;
 }
-.hero-line--left { width: 1px; height: 120px; top: 15%; left: 8%; }
-.hero-line--right { width: 1px; height: 120px; top: 15%; right: 8%; }
-.hero-line--bottom { width: 200px; height: 1px; bottom: 18%; left: 50%; transform: translateX(-50%); }
+.hero-scroll {
+    z-index: 2;
+}
 
 .hero-overtitle {
     font-family: var(--font-mono);
